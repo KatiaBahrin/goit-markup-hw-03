@@ -1,19 +1,22 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Студія</title>
-    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Портфоліо</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
-
   <body>
     <!-- Header -->
     <header class="header-section">
@@ -25,10 +28,10 @@
           <!--Menu-->
           <ul class="list site-nav">
             <li class="point">
-              <a href="index.html" class="link current">Студія</a>
+              <a href="index.html" class="link">Студія</a>
             </li>
             <li class="point">
-              <a href="portfolio.html" class="link">Портфоліо</a>
+              <a href="portfolio.html" class="link current">Портфоліо</a>
             </li>
             <li class="point">
               <a href="index.html" class="link">Контакти</a>
@@ -48,100 +51,163 @@
       </div>
     </header>
     <main>
-      <section class="hero">
-        <div>
-          <h1 class="hero-title">
-            Ефективні рішення для<br />
-            вашого бізнесу
-          </h1>
-          <button type="button" class="button-second">Замовити послугу</button>
-        </div>
-      </section>
-      <section class="features">
-        <div class="container"></div>
-          <h2 class="visually-hidden">Переваги</h2>
-            <ul class="features-list list">
-              <li class="point">
-                <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                <p>
-                  Ідейні міркування, і навіть початок повсякденної роботи з
-                  формування позиції.
-                </p>
-              </li>
-              <li class="point">
-                <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
-                <p>
-                  Завдання організації, особливо рамки і місце навчання кадрів
-                  тягне у себе.
-                </p>
-              </li>
-              <li class="point">
-                <h3 class="title">ПЛАНУВАННЯ</h3>
-                <p>
-                  Так само консультація з широким активом значною мірою зумовлює.
-                </p>
-              </li>
-              <li class="point">
-                <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                <p>
-                  Значимість цих проблем настільки очевидна, що реалізація
-                  планових завдань.
-                </p>
-              </li>
-            </ul>
-        </div>
-      </section>
-      <section class="aboutstudio">
+      <section class="applications">
         <div class="container">
-          <h2 class="second-title">Чим ми займаємося</h2>
-          <ul class="about-list list">
-            <li class="about-point">
-              <img src="./images/box1.jpg" alt="box1" width="370" />
+          <h1 class="visually-hidden">Додатки</h1>
+          <ul class="projects list">
+            <li class="point">
+              <button type="button" class="button-primary">Усі</button>
             </li>
-            <li class="about-point">
-              <img src="./images/box2.jpg" alt="box2" width="370" />
+            <li class="point">
+              <button type="button" class="button-primary">Веб-сайти</button>
             </li>
-            <li class="about-point">
-              <img src="./images/box3.jpg" alt="box3" width="370" />
+            <li class="point">
+              <button type="button" class="button-primary">Додатки</button>
+            </li>
+            <li class="point">
+              <button type="button" class="button-primary">Дизайн</button>
+            </li>
+            <li class="point">
+              <button type="button" class="button-primary">Маркетинг</button>
             </li>
           </ul>
-        </div>
-      </section>
-      <section class="aboutworkers">
-        <div class="container">
-          <h2 class="second-title">Наша команда</h2>
-          <div class="team-group">
-            <ul class="team-list list">
-              <li class="point-worker">
-                <img class="worker-image" src="./images/img.jpg" alt="Ігор" width="270" />
-                <div class="worker">
-                  <h3 class="title">Ігор Дем'яненко</h3>
-                  <p class="profession">Product Designer</p>
+          <ul class="applications-list list">
+            <li class="point">
+              <a href="#">
+                <img
+                  class="image"
+                  src="images/image1.jpg"
+                  alt="img1"
+                  width="370"
+                  height="294"
+                />
+                <div class="aboutapp">
+                  <h2 class="second-title">Технокряк</h2>
+                  <p class="third-title">Веб-сайт</p>
                 </div>
-              </li>
-              <li class="point-worker">
-                <img class="worker-image" src="./images/img1.jpg" alt="Ольга" width="270" />
-                <div class="worker">
-                  <h3 class="title">Ольга Рєпіна</h3>
-                  <p class="profession">Frontend Developer</p>
+              </a>
+            </li>
+            <li class="point">
+              <a href="#">
+                <img
+                  class="image"
+                  src="./images/image2.jpg"
+                  alt="img2"
+                  width="370"
+                  height="294"
+                />
+                <div class="aboutapp">
+                  <h2 class="second-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="third-title">Дизайн</p>
                 </div>
-              </li>
-              <li class="point-worker">
-                <img class="worker-image" src="./images/img2.jpg" alt="Микола" width="270" />
-                <div class="worker">
-                  <h3 class="title">Микола Тарасов</h3>
-                  <p class="profession">Marketing</p>
+              </a>
+            </li>
+            <li class="point">
+              <a href="#">
+                <img
+                  class="image"
+                  src="./images/image3.jpg"
+                  alt="img3"
+                  width="370"
+                  height="294"
+                />
+                <div class="aboutapp">
+                  <h2 class="second-title">Ресторан Seafood</h2>
+                  <p class="third-title">Додаток</p>
                 </div>
-              </li>
-              <li class="point-worker">
-                <img class="worker-image" src="./images/img3.jpg" alt="Михайло" width="270" />
-                <div class="worker">
-                  <h3 class="title">Михайло Єрмаков</h3>
-                  <p class="profession">UI Designer</p>
+              </a>
+            </li>
+            <li class="point">
+              <a href="#">
+                <img
+                  class="image"
+                  src="./images/image4.jpg"
+                  alt="img4"
+                  width="370"
+                  height="294"
+                />
+                <div class="aboutapp">
+                  <h2 class="second-title">Проєкт Prime</h2>
+                  <p class="third-title">Маркетинг</p>
                 </div>
-              </li>
-            </ul>
-          </div>
+              </a>
+            </li>
+            <li class="point">
+              <a href="#">
+                <img
+                  class="image"
+                  src="./images/image5.jpg"
+                  alt="img5"
+                  width="370"
+                  height="294"
+                />
+                <div class="aboutapp">
+                  <h2 class="second-title">Проєкт Boxes</h2>
+                  <p class="third-title">Додаток</p>
+                </div>
+              </a>
+            </li>
+            <li class="point">
+              <a href="#">
+                <img
+                  class="image"
+                  src="./images/image6.jpg"
+                  alt="img6"
+                  width="370"
+                  height="294"
+                />
+                <div class="aboutapp">
+                  <h2 class="second-title">Inspiration has no Borders</h2>
+                  <p class="third-title">Веб-сайт</p>
+                </div>
+              </a>
+            </li>
+            <li class="point">
+              <a href="#">
+                <img
+                  class="image"
+                  src="./images/image7.jpg"
+                  alt="img7"
+                  width="370"
+                  height="294"
+                />
+                <div class="aboutapp">
+                  <h2 class="second-title">Видання Limited Edition</h2>
+                  <p class="third-title">Дизайн</p>
+                </div>
+              </a>
+            </li>
+            <li class="point">
+              <a href="#">
+                <img
+                  class="image"
+                  src="./images/image8.jpg"
+                  alt="img8"
+                  width="370"
+                  height="294"
+                />
+                <div class="aboutapp">
+                  <h2 class="second-title">Проєкт LAB</h2>
+                  <p class="third-title">Маркетинг</p>
+                </div>
+              </a>
+            </li>
+            <li class="point">
+              <a href="#">
+                <img
+                  class="image"
+                  src="./images/image9.jpg"
+                  alt="img9"
+                  width="370"
+                  height="294"
+                />
+                <div class="aboutapp">
+                  <h2 class="second-title">Growing Business</h2>
+                  <p class="third-title">Додаток</p>
+                </div>
+              </a>
+            </li>
+          </ul>
         </div>
       </section>
     </main>
