@@ -329,11 +329,17 @@ header {
   text-decoration: none;
 }
 
-.address-footer .address {
+.footer .mailme-footer a {
+  font-style: normal;
+  color: var(--primary-color-white);
+  line-height: 1.71;
+  text-decoration: none;
+  
+.address-footer {
   padding-bottom: 9px;
 }
 
-.contacts-footer .mailme {
+.mailme-footer {
   padding-bottom: 9px;
 }
 
@@ -343,7 +349,6 @@ header {
   font-family: inherit;
   cursor: pointer;
   display: inline-block;
-  padding: 6px 22px;
   min-width: 73px;
   text-align: center;
 }
@@ -356,6 +361,7 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  padding: 6px 25px;
 
   border: 0;
   border-color: none;
@@ -438,6 +444,9 @@ header {
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
 
 .applications-list .point:nth-last-child(-n + 3) {
@@ -458,10 +467,6 @@ header {
 
 .applications-list .point {
   background: #ffffff;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-right: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
 }
 
 .applications-list .second-title {
