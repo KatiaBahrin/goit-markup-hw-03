@@ -331,16 +331,17 @@ header {
 
 .footer .mailme-footer a {
   font-style: normal;
-  color: var(--primary-color-white);
+  color: var(--footer-contact-color);
   line-height: 1.71;
   text-decoration: none;
-  
+}
+
 .address-footer {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .mailme-footer {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .button {
@@ -349,6 +350,7 @@ header {
   font-family: inherit;
   cursor: pointer;
   display: inline-block;
+  padding: 6px 22px;
   min-width: 73px;
   text-align: center;
 }
@@ -399,7 +401,6 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  padding: 6px 22px;
 }
 
 .projects.list .button-primary:hover,
@@ -444,6 +445,7 @@ header {
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
+
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
